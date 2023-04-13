@@ -1,0 +1,45 @@
+body{
+    text-align: justify;
+}
+
+.container{
+    display: flex;
+}
+
+.left{
+    width: 30%;
+    margin-right: 20px;
+    background-color: rgb(63, 63, 110);
+    color: antiquewhite;
+}
+
+.left li{
+ text-align: justify;
+ margin-right: 10%;
+}
+
+.right{
+    width: 70%;
+}
+
+.foto{
+    width: 150px; /* altere o valor para o tamanho desejado */
+    min-height: 50px; /* altere o valor para o tamanho desejado */
+    object-fit: cover;
+    border-radius: 45%;
+    border: 10px solid rgb(44, 44, 66);
+    margin: 0 auto;
+    margin-top: 10%;
+    display: block;
+  }
+
+.left h1{
+    text-align: center;
+}
+
+.left h4{
+    text-align: center;
+}
+
+
+
